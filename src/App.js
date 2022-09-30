@@ -1,11 +1,14 @@
 import './App.css'
-import MiApi from './components/MiApi.jsx'
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { MiApi } from './components/MiApi';
 
 function App() {
   return (
     <div className="App">
-     <h1>titulo</h1>
+     <Header></Header>
      <MiApi></MiApi>
+     <Footer></Footer>
     </div>
   )
 }
