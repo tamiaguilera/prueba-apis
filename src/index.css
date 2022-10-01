@@ -1,0 +1,14 @@
+
+body{
+    margin: 0;
+}
+
+.MuiInputLabel-root{
+    color: white !important;
+}
+.MuiFilledInput-root::before{
+    border-bottom: 1px solid white !important;
+}
+.MuiFilledInput-root::after{
+    border-bottom: 2px solid white !important;
+}
