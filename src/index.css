@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    
 }
 
 .MuiInputLabel-root{
@@ -11,4 +12,22 @@ body{
 }
 .MuiFilledInput-root::after{
     border-bottom: 2px solid white !important;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    margin: 0;
+}
+
+.nombre{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.footer{
+    background-color: #1976d2;
+    padding: 1rem;
 }

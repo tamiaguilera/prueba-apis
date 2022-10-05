@@ -30,13 +30,13 @@ function App() {
     });
   }
 
-  const ordenarDatos = (e) => {
+  const ordenarDatos = () => {
     const filas = [...rows];
     let resultado = [];
     if(orden === 'asc'){
-      resultado = filas.sort( (a, b) => a.comuna_nombre.localeCompare(b.comuna));
+      resultado = filas.sort( (a, b) => a.comuna_nombre.toLowerCase().localeCompare(b.comuna_nombre.toLowerCase()));
     }else{
-      resultado = filas.sort( (a, b) => b.comuna_nombre.localeCompare(a.comuna));
+      resultado = filas.sort( (a, b) => b.comuna_nombre.toLowerCase().localeCompare(a.comuna_nombre.toLowerCase()));
     }
     setRows(resultado);
   }
@@ -45,7 +45,6 @@ function App() {
     const buscar = e.target.value.toLowerCase();
     const filtrar = api.filter( (row) => {
       const comuna = row.comuna_nombre.toLowerCase();
-      const direccion = row.local_direccion.toLowerCase();
       return comuna.includes(buscar);
     })
     setRows(filtrar);
