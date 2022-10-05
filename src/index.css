@@ -4,16 +4,9 @@ body{
     
 }
 
-.MuiInputLabel-root{
-    color: white !important;
+.header{
+    background-color: blueviolet;
 }
-.MuiFilledInput-root::before{
-    border-bottom: 1px solid white !important;
-}
-.MuiFilledInput-root::after{
-    border-bottom: 2px solid white !important;
-}
-
 .titulo{
     text-align: center;
     color: white;
