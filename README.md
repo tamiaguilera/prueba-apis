@@ -9,3 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 npm install @mui/material @emotion/react @emotion/styled @fontsource/roboto @mui/icons-material
+
+
+## Video subido a youtube 
+https://youtu.be/fVdU9i3XLkU

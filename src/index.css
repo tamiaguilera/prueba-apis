@@ -1,12 +1,8 @@
 
 body{
     margin: 0;
-    
 }
 
-.header{
-    background-color: blueviolet;
-}
 .titulo{
     text-align: center;
     color: white;
@@ -17,7 +13,7 @@ body{
 .nombre{
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(141, 226, 245);
     margin: 0;
 }
 .footer{

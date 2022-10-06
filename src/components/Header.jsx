@@ -8,7 +8,7 @@ export const Header = () => {
             <AppBar position="static" >
                 <Toolbar>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Farmacias de Turno
+                        <h2>Farmacias de Turno</h2>
                     </Typography>
                 </Toolbar>
             </AppBar>
